@@ -1,0 +1,32 @@
+```gitignore
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment folders
+venv/
+env/
+.venv/
+
+# Results folder (optional - you can keep it)
+results/
+*.png
+*.csv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
