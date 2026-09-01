@@ -67,22 +67,18 @@ text
 ### Installation
 
 **Step 1: Clone the repository**
-```bash
 git clone https://github.com/ketemaderesa/coffee-yield-forecasting-western-hararghe.git
 cd coffee-yield-forecasting-western-hararghe
 Step 2: Create a virtual environment
 
-bash
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 Step 3: Install dependencies
 
-bash
 pip install -r requirements.txt
 Run the Code
 Execute the single Python file:
 
-bash
 python coffee_yield_forecasting.py
 The script will:
 
@@ -121,14 +117,8 @@ Zenodo: https://doi.org/10.5281/zenodo.19630675
 
 📚 Citation
 If you use this code or dataset, please cite:
-
-bibtex
-@article{deresa2026coffee,
   title={Predictive Machine Learning Model for Annual Coffee Yield Forecasting: A case of Western Hararghe Zone},
   author={Deresa, Ketema and Siraj, Hashim and Nemomsa, Gadissa},
-  journal={[Journal Name]},
-  year={2026},
-  doi={[DOI]}
 }
 
 🙏 Acknowledgements
